@@ -1,0 +1,104 @@
+{
+    "name": "lateralMovementAndVPNBreachResponse",
+    "version": "1.0.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "Lateral Movement and VPN Breach Response",
+    "dependencies": [
+        {
+            "name": "sOARFramework",
+            "type": "solutionpack",
+            "label": "SOAR Framework",
+            "version": "1.0.0",
+            "minVersion": null
+        },
+        {
+            "name": "socSimulator",
+            "type": "solutionpack",
+            "label": "SOC Simulator",
+            "version": "1.0.0",
+            "minVersion": null
+        }
+    ],
+    "prerequisite": [],
+    "publisher": "Fortinet",
+    "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event",
+    "summary": null,
+    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-dns-exfilteration-threat-response\/blob\/develop\/README.md",
+    "category": [],
+    "supportInfo": "support@fortinet.com",
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-02-18T19:30:55+00:00",
+    "exported_from": "master.fortisoar.com",
+    "exported_by": "CS Admin",
+    "contents": {
+        "picklistNames": [
+            {
+                "name": "AssetCategory"
+            },
+            {
+                "name": "AssetClass"
+            },
+            {
+                "name": "AssetState"
+            },
+            {
+                "name": "AssetStatus"
+            },
+            {
+                "name": "Criticality"
+            },
+            {
+                "name": "OperatingSystem"
+            }
+        ],
+        "modules": {
+            "assets": {
+                "name": "Assets",
+                "apiName": "assets"
+            },
+            "scenario": {
+                "name": "Scenario",
+                "apiName": "scenario"
+            }
+        },
+        "viewTemplates": {
+            "assets": [
+                "list",
+                "detail",
+                "form"
+            ],
+            "scenario": [
+                "list",
+                "detail",
+                "form"
+            ]
+        },
+        "playbooks": [
+            {
+                "name": "04 - Use Case - Lateral Movement & VPN Breach Response"
+            }
+        ],
+        "connectors": [
+            {
+                "name": "Active Directory",
+                "apiName": "activedirectory",
+                "version": "2.2.0"
+            },
+            {
+                "name": "Fortinet FortiSIEM",
+                "apiName": "fortinet-fortisiem",
+                "version": "4.3.1"
+            },
+            {
+                "name": "Utilities",
+                "apiName": "cyops_utilities",
+                "version": "3.2.1"
+            }
+        ],
+        "recordSets": {
+            "assets": 4,
+            "scenario": 1
+        }
+    }
+}

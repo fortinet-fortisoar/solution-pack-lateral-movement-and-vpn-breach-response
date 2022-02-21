@@ -1,0 +1,31 @@
+[
+    {
+        "@type": "Scenario",
+        "configuration": "Fortideceptor",
+        "title": "FortiDeceptor Alert Integration with Syslog",
+        "description": "This scenario generates demonstration alerts for lateral movement and VPN breach attack using FortiDeceptor CEF data which is received from syslog.\n&nbsp;\nIn such attack technique, the attacked initially gains access to endpoint and moves through deep in the network to avoid detection. Eventually obtaining increased privileges in compromised network and gaining access to sensitive information.",
+        "steps": {
+            "Steps": [
+                {
+                    "name": "FDC Alerts",
+                    "type": "executePlaybook",
+                    "playbookIRI": "\/api\/3\/workflows\/9b93414f-9bd9-4378-a0f8-1bba064b9cd7",
+                    "preCreateMessage": "Creating demo record for FDC Alerts",
+                    "postCreateMessage": "",
+                    "waitTimeforNextStep": "0"
+                }
+            ]
+        },
+        "createdAlertsID": null,
+        "uuid": "331913b9-1548-4071-ba9e-38a7d3b0618b",
+        "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "createDate": 1644608313,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1645211818.105468,
+        "id": "26",
+        "recordTags": [
+            "FortiSOAR",
+            "FortiDeceptor"
+        ]
+    }
+]
