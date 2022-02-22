@@ -219,6 +219,8 @@
     "priority": "\/api\/3\/picklists\/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
     "uuid": "9b93414f-9bd9-4378-a0f8-1bba064b9cd7",
     "recordTags": [
+        "FSRSolutionPack",
+        "lateralMovementAndVPNBreachResponse-1.0.0",
         "Referenced"
     ],
     "id": "619",

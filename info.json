@@ -27,6 +27,8 @@
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-dns-exfilteration-threat-response\/blob\/develop\/README.md",
     "category": [],
     "supportInfo": "support@fortinet.com",
+    "iconLarge": null,
+    "recordTags": [],
     "fsrMinCompatibility": "7.2.0",
     "date": "2022-02-18T19:30:55+00:00",
     "exported_from": "master.fortisoar.com",
