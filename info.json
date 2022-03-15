@@ -20,62 +20,19 @@
             "minVersion": null
         }
     ],
-    "prerequisite": [],
+    "prerequisite": "",
+    "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event",
-    "summary": null,
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-dns-exfilteration-threat-response\/blob\/develop\/README.md",
     "category": [],
     "supportInfo": "support@fortinet.com",
     "iconLarge": null,
-    "recordTags": [],
     "fsrMinCompatibility": "7.2.0",
     "date": "2022-02-18T19:30:55+00:00",
     "exported_from": "master.fortisoar.com",
     "exported_by": "CS Admin",
     "contents": {
-        "picklistNames": [
-            {
-                "name": "AssetCategory"
-            },
-            {
-                "name": "AssetClass"
-            },
-            {
-                "name": "AssetState"
-            },
-            {
-                "name": "AssetStatus"
-            },
-            {
-                "name": "Criticality"
-            },
-            {
-                "name": "OperatingSystem"
-            }
-        ],
-        "modules": {
-            "assets": {
-                "name": "Assets",
-                "apiName": "assets"
-            },
-            "scenario": {
-                "name": "Scenario",
-                "apiName": "scenario"
-            }
-        },
-        "viewTemplates": {
-            "assets": [
-                "list",
-                "detail",
-                "form"
-            ],
-            "scenario": [
-                "list",
-                "detail",
-                "form"
-            ]
-        },
         "playbooks": [
             {
                 "name": "04 - Use Case - Lateral Movement & VPN Breach Response"
@@ -91,11 +48,6 @@
                 "name": "Fortinet FortiSIEM",
                 "apiName": "fortinet-fortisiem",
                 "version": "4.3.1"
-            },
-            {
-                "name": "Utilities",
-                "apiName": "cyops_utilities",
-                "version": "3.2.1"
             }
         ],
         "recordSets": {

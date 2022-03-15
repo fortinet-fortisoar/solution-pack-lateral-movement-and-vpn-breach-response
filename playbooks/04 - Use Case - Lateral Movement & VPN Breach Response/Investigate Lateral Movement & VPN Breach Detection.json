@@ -894,9 +894,7 @@
     "priority": "\/api\/3\/picklists\/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
     "uuid": "a0de918e-ebf6-480b-8388-d10cb7fb2125",
     "recordTags": [
-        "FSRSolutionPack",
-        "ManualTrigger",
-        "lateralMovementAndVPNBreachResponse-1.0.0"
+        "ManualTrigger"
     ],
     "id": "620",
     "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
