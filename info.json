@@ -35,7 +35,7 @@
     "contents": {
         "playbooks": [
             {
-                "name": "04 - Use Case - Lateral Movement & VPN Breach Response"
+                "name": "02 - Use Case - Lateral Movement & VPN Breach Response"
             }
         ],
         "connectors": [
