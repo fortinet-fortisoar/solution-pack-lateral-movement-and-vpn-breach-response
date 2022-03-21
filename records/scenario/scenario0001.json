@@ -3,7 +3,7 @@
         "@type": "Scenario",
         "configuration": "Fortideceptor",
         "title": "FortiDeceptor Alert Integration with Syslog",
-        "description": "This scenario generates demonstration alerts for lateral movement and VPN breach attack using FortiDeceptor CEF data which is received from syslog.\n&nbsp;\nIn such attack technique, the attacked initially gains access to endpoint and moves through deep in the network to avoid detection. Eventually obtaining increased privileges in compromised network and gaining access to sensitive information.",
+        "description": "This scenario generates demonstration alerts for lateral movement and VPN breach attack using FortiDeceptor CEF data which is received from syslog.\n&nbsp;\nIn such attack technique, the attacker initially gains access to endpoint and moves through deep in the network to avoid detection. Eventually obtaining increased privileges in compromised network and gaining access to sensitive information.",
         "steps": {
             "Steps": [
                 {
