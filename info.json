@@ -21,17 +21,15 @@
         }
     ],
     "prerequisite": "",
-    "certified": "true",
+    "certified": "false",
     "publisher": "Fortinet",
-    "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event",
+    "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event. Few important integrations used in the solution pack are Microsoft Active Directory and Fortinet FortiSIEM.",
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-dns-exfilteration-threat-response\/blob\/develop\/README.md",
     "category": [],
-    "supportInfo": "support@fortinet.com",
+    "supportInfo": "",
     "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-18T19:30:55+00:00",
-    "exported_from": "master.fortisoar.com",
-    "exported_by": "CS Admin",
+    "date": "2022-04-08T20:19:06+00:00",
     "contents": {
         "playbooks": [
             {
@@ -41,18 +39,24 @@
         "connectors": [
             {
                 "name": "Active Directory",
-                "apiName": "activedirectory",
-                "version": "2.2.0"
+                "apiName": "activedirectory"
             },
             {
                 "name": "Fortinet FortiSIEM",
-                "apiName": "fortinet-fortisiem",
-                "version": "4.3.1"
+                "apiName": "fortinet-fortisiem"
             }
         ],
-        "recordSets": {
-            "assets": 4,
-            "scenario": 1
-        }
+        "recordSets": [
+            {
+                "name": "Assets",
+                "apiName": "assets",
+                "count": 4
+            },
+            {
+                "name": "Scenario",
+                "apiName": "scenario",
+                "count": 1
+            }
+        ]
     }
 }
