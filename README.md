@@ -12,7 +12,7 @@ In such an attack technique, the attacker initially gains access to an endpoint 
 
 ### Usage
 
-More information about usage of the Lateral Movement and VPN Breach Response Solution Pack [here](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/docs/solution-pack-guide.md).
+More information about the usage of the Lateral Movement and VPN Breach Response Solution Pack [here](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/docs/solution-pack-guide.md).
 
 ## Version Information
 
