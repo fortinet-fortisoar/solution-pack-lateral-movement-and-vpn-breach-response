@@ -69,8 +69,6 @@ Ensure that the below solution packs are deployed:
 
     - 02 - Use Case - Lateral Movement & VPN Breach Response(2):
 
-        Following is a list of playbooks under "02 - Use Case - Lateral Movement & VPN Breach Response" collection
-
     |**Playbook Name**|**Description**|
     | :- | :- |
     |Generate - FortiDeceptor Alerts for Lateral Movement | Generate Alert from FortiDeceptor CEF|
