@@ -45,7 +45,7 @@ Launch the "Investigate Lateral Movement & VPN Breach Detection" playbook and ob
 
 Ensure that the below solution packs are deployed:
 
-**Solution Pack**|**Purpose**|**Doc Link**|
+|**Solution Pack**|**Purpose**|**Doc Link**|
 | :- | :- | :- |
 |SOAR Framework 1.0.0|Require for Incident Response modules and Action playbooks|[Click here](https://github.com/fortinet-fortisoar/solution-pack-soar-framework/blob/develop/README.md)|
 |SOC Simulator 1.0.1|Require for Scenario Module and SOC Simulator connector| [Click here](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/README.md)|
@@ -69,11 +69,11 @@ Ensure that the below solution packs are deployed:
 
     - 02 - Use Case - Lateral Movement & VPN Breach Response(2):
 
-        Following is a list of playbooks under “02 - Use Case - Lateral Movement & VPN Breach Response” collection
+        Following is a list of playbooks under "02 - Use Case - Lateral Movement & VPN Breach Response" collection
 
     |**Playbook Name**|**Description**|
     | :- | :- |
     |Generate - FortiDeceptor Alerts for Lateral Movement | Generate Alert from FortiDeceptor CEF|
     |Investigate Lateral Movement & VPN Breach Detection | Investigates a FortiDeceptor Malicious IP Lateral Movement and performs containment and remediation tasks if a breach is detected.|
 
-    **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
+     **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
