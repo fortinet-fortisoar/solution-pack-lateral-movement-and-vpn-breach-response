@@ -24,7 +24,7 @@
     "certified": "false",
     "publisher": "Fortinet",
     "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event. Few important integrations used in the solution pack are Microsoft Active Directory and Fortinet FortiSIEM.",
-    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-dns-exfilteration-threat-response\/blob\/develop\/README.md",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/README.md",
     "category": [],
     "supportInfo": "",
     "iconLarge": null,
