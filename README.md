@@ -1,5 +1,3 @@
-# Lateral Movement and VPN Breach Response Solution Pack
-
 ## Release Information
 
 - Solution Pack Version: 1.0.0
@@ -11,9 +9,9 @@
 
 ### Introduction
 
-*Lateral Movement and VPN Breach Response Solutions Pack* demonstrates the scenarios and use cases around lateral movement and VPN breach attacks.
+**Lateral Movement and VPN Breach Response Solutions Pack** demonstrates the scenarios and use cases around lateral movement and VPN breach attacks.
 
-Configure ingestion using a connector such as Syslog. The ingestion process creates alerts using FortiDeceptor CEF data (containing information such as attacker and victim IP Addresses) and then manually triggers the response workflow.
+Configure ingestion using a connector such as **Syslog**. The ingestion process creates alerts using FortiDeceptor CEF data (containing information such as attacker and victim IP Addresses) and manually triggers the response workflow.
 
 In such an attack technique, the attacker initially gains access to an endpoint and moves deep in the network to avoid detection. Eventually obtaining increased privileges in compromised networks and gaining access to sensitive information.
 
@@ -21,25 +19,27 @@ Refer to Simulation Scenarios - 'FortiDeceptor Alert Integration with Syslog' to
 
 ### Usage
 
-This Solution Pack ships with the following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to understand how to Simulate and Reset Scenario.
+Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to understand how to Simulate and Reset scenarios.
 
-#### 1. Scenario - FortiDeceptor Alert Integration with Syslog
+This Solution Pack ships with the following simulation scenarios. 
 
-The scenario generates a demo alert of Type 'Other/Unknown
+**Scenario - FortiDeceptor Alert Integration with Syslog**
 
-Goto generated alert and observe the following:
+The scenario generates a demo alert of Type **Other/Unknown**
+
+Navigate to generated alert and observe the following:
 
 - Information such as user, source IP, destination IP is presented for analyzing the case
 - FortiDeceptor information (attacker IP Address) is presented as a handy reference
 
 **Investigate Lateral Movement & VPN Breach Detection:**
 
-Launch the "Investigate Lateral Movement & VPN Breach Detection" playbook and observe various investigation activities such as
+Launch the **Investigate Lateral Movement & VPN Breach Detection** playbook and observe various investigation activities such as
 
-- Asset details related to malicious IP address
-- Investigate for VPN breaches and block malicious IP
-- Quarantine the malicious IP endpoint on FortiClient EMS
-- Get compromised user details and block them on Microsoft Active directory
+- Fetching asset details related to malicious IP address
+- Investigation for VPN breaches and block malicious IP
+- Quarantine of the malicious IP endpoint on FortiClient EMS
+- Fetching compromised users' details to block them on Microsoft Active directory
 
 ## Prerequisite
 
