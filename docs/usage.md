@@ -1,4 +1,4 @@
-| [Home](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/README.md) | 
+| [Home](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/README.md) | 
 |--------------------------------------------|
 
 # Usage

@@ -1,6 +1,6 @@
 # Release Information
 
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **Certified**: No
 - **Publisher**: Fortinet
 - **Compatible Version**: FortiSOAR v7.2.0 and above 
@@ -13,5 +13,5 @@ In such an attack technique, the attacker initially gains access to an endpoint 
 
 # Next Steps
 
-| [Installation](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/docs/setup.md#installation) | [Configuration](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/docs/setup.md#configuration) | [Usage](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/docs/usage.md) | [Contents](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/docs/contents.md) |
+| [Installation](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/docs/setup.md#installation) | [Configuration](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/docs/setup.md#configuration) | [Usage](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/docs/usage.md) | [Contents](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/docs/contents.md) |
 |--------------------------------------------|----------------------------------------------|------------------------|------------------------------|
