@@ -3,7 +3,8 @@
 - **Version**: 1.0.1
 - **Certified**: No
 - **Publisher**: Fortinet
-- **Compatible Version**: FortiSOAR v7.2.0 and above 
+- **Compatible Version**: FortiSOAR v7.2.0 and above
+- [Release Notes](https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/release_notes.md)
 
 # Overview
 
