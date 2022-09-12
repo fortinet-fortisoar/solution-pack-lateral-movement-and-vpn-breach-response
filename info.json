@@ -1,6 +1,6 @@
 {
     "name": "lateralMovementAndVPNBreachResponse",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "solutionpack",
     "local": true,
     "label": "Lateral Movement and VPN Breach Response",
@@ -23,8 +23,8 @@
     "prerequisite": "",
     "certified": "false",
     "publisher": "Fortinet",
-    "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event. Few important integrations used in the solution pack are Microsoft Active Directory and Fortinet FortiSIEM.",
-    "help": "https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/develop/README.md",
+    "description": "Solution pack demonstrates investigation of Lateral Movement and VPN Breach Event. Few important integrations used in the solution pack are Fortinet FortiClient EMS, Fortinet FortiDeceptor, Fortinet FortiEDR, Fortinet FortiGate, Fortinet FortiSIEM and Microsoft Active Directory.",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-lateral-movement-and-vpn-breach-response/blob/release/1.0.1/README.md",
     "category": [],
     "supportInfo": "",
     "iconLarge": null,
